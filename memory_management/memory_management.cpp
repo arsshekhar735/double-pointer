@@ -13,5 +13,11 @@ int main()
     //In the stack after the excution of the program/function/variable. 
     //Stack automatically realease the memory occupied by the program.
     //But in heap the memory could not delete by itself. 
-    //We have to delete the memory using the DELETE Keyboard
+    //We have to delete the memory using the DELETE Keyboard.
+    int *ptr = new int;//here we used the heap memory using new keyboard
+    cout<<ptr;//here we are printing the address of int. It means that where it stored in heap memory.
+    //Now we will assign the value to ptr
+    *ptr = 5;
+    cout<<endl;
+    cout<<*ptr;
 }
