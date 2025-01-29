@@ -26,4 +26,14 @@ int main()
     int *ptr1 = new int[n];
     cout<<ptr1<<endl;
 
+    //Now we will enter the value in the array.
+    for(int i = 0; i<n;i++)
+    {
+        ptr[i] = i + 1;
+    }
+    for(int i = 0; i <n; i++)
+    {
+        cout<<ptr1[i]<<endl;
+    }
+    delete ptr1;
 }
