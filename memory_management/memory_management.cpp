@@ -19,10 +19,11 @@ int main()
     //Now we will assign the value to ptr
     *ptr = 5;
     cout<<endl;
-    cout<<*ptr;
+    cout<<*ptr<<endl;
 
     int n;
     cin>>n;
     int *ptr1 = new int[n];
-    
+    cout<<ptr1<<endl;
+
 }
