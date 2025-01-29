@@ -20,4 +20,9 @@ int main()
     *ptr = 5;
     cout<<endl;
     cout<<*ptr;
+
+    int n;
+    cin>>n;
+    int *ptr1 = new int[n];
+    
 }
